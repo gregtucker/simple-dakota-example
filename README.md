@@ -37,10 +37,10 @@ which is available for Mac and Windows.
 To download this example,
 you can use Git:
 
-    git clone https://github.com/mdpiper/simple-dakota-example
+    git clone https://github.com/gregtucker/simple-dakota-example
 
 Or you can download a
-[zip file](https://github.com/mdpiper/simple-dakota-example/archive/master.zip)
+[zip file](https://github.com/gregtucker/simple-dakota-example/archive/master.zip)
 and unpack it.
 
 Change into the **simple-dakota-example** directory
@@ -64,7 +64,7 @@ Dakota, Python, and Git are already installed on ***beach***.
 
 Download this example with:
 
-    git clone https://github.com/mdpiper/simple-dakota-example
+    git clone https://github.com/gregtucker/simple-dakota-example
 
 Change into the **simple-dakota-example** directory
 and submit the run to the job scheduler with:
