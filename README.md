@@ -70,7 +70,7 @@ Change into the **simple-dakota-example** directory
 and submit the run to the job scheduler with:
 
 	cd simple-dakota-example
-	qsub call_dakota.pbs.in
+	qsub call_dakota.pbs.sh
 
 When the example completes,
 view the output in the scheduler output file,
