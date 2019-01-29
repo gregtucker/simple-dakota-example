@@ -11,6 +11,9 @@
 #
 # (written by G. Tucker, for Modeling class, March 2016)
 
+from __future__ import print_function
+
+from builtins import str
 import sys
 from subprocess import call
 import numpy as np
@@ -35,7 +38,7 @@ call(['dprepro', sys.argv[1], input_file_template, input_file])
 infile = open(input_file)
 coef = float( infile.readline() )
 infile.close()
-print 'Running with coefficient value', coef
+print('Running with coefficient value', coef)
 
 # The model has a domain of "x" values that range from 1 to 10
 x = np.arange(1.0, 11.0)
@@ -49,7 +52,7 @@ y_model = coef * np.sqrt(x)
 
 # Find the root-mean-square misfit between model and data
 rms_error = np.sqrt( np.sum( (y_model - y_data)**2 ) )
-print 'RMS error with coef', coef, 'is', rms_error
+print('RMS error with coef', coef, 'is', rms_error)
 
 # Write the RMS error to a file
 outfile = open(sys.argv[2], 'w')
